@@ -2,6 +2,7 @@
     "name": "@justinal64/helpers",
     "version": "0.0.5",
     "description": "helper functions",
+    "private": false,
     "author": "justin leggett <justin@codingrookie.com>",
     "homepage": "https://github.com/justinal64/justinal64-app#readme",
     "license": "ISC",
@@ -24,5 +25,5 @@
     "bugs": {
         "url": "https://github.com/justinal64/justinal64-app/issues"
     },
-    "gitHead": "e344fa60da505c3c4be68df8697416682229417e"
+    "gitHead": "5351b233f6f5a1bec143ae34f8c75238ce0c297a"
 }
