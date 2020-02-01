@@ -1,6 +1,7 @@
 {
-    "name": "demo",
+    "name": "@justinal64/demo",
     "version": "0.0.2",
+    "private": true,
     "description": "demo application",
     "author": "justin leggett <justin@codingrookie.com>",
     "homepage": "https://github.com/justinal64/justinal64-app#readme",
@@ -24,5 +25,5 @@
     "bugs": {
         "url": "https://github.com/justinal64/justinal64-app/issues"
     },
-    "gitHead": "1dff3e1c524cd624151d11cbd5f422e58f5372f5"
+    "gitHead": "eee907eb8879273e5555d13d0c4a083ee8c0bc0a"
 }
