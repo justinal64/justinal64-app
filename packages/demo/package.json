@@ -1,12 +1,12 @@
 {
-    "name": "@justinal64/helpers",
-    "version": "0.0.6",
-    "description": "helper functions",
-    "private": false,
+    "name": "@justinal64/demo",
+    "version": "0.0.3",
+    "private": true,
+    "description": "demo application",
     "author": "justin leggett <justin@codingrookie.com>",
     "homepage": "https://github.com/justinal64/justinal64-app#readme",
     "license": "ISC",
-    "main": "lib/helpers.js",
+    "main": "lib/demo.js",
     "directories": {
         "lib": "lib",
         "test": "__tests__"
@@ -25,5 +25,5 @@
     "bugs": {
         "url": "https://github.com/justinal64/justinal64-app/issues"
     },
-    "gitHead": "5351b233f6f5a1bec143ae34f8c75238ce0c297a"
+    "gitHead": "eee907eb8879273e5555d13d0c4a083ee8c0bc0a"
 }
