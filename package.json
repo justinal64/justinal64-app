@@ -3,7 +3,8 @@
     "devDependencies": {
         "lerna": "^3.20.2",
         "@types/node": "^13.7.0",
-        "typescript": "^3.7.5"
+        "typescript": "^3.7.5",
+        "@justinal64/helpers": "^0.0.9"
     },
     "scripts": {
         "publish": "lerna run tsc && lerna publish"
