@@ -20,7 +20,7 @@
     },
     "scripts": {
         "test": "echo \"Error: run tests from root\" && exit 1",
-        "tsc": "tsc"
+        "tsc": "tsc -w"
     },
     "bugs": {
         "url": "https://github.com/justinal64/justinal64-app/issues"
