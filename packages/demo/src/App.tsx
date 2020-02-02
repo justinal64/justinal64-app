@@ -6,7 +6,13 @@ import { TextInput } from "@justinal64/dashboard";
 const App = () => {
   return (
     <div className="App">
-      <TextInput />
+      <TextInput
+        label="test"
+        placeholder="placeholder"
+        value="2"
+        onChange={() => {}}
+        helpText="helptext"
+      />
     </div>
   );
 };
