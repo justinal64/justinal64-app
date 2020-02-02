@@ -1,12 +1,11 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { helpers } from "@justinal64/helpers";
+import {} from "@justinal64/dashboard";
 
-const Dashboard = () => {
+const App = () => {
   return (
     <div className="App">
-      {helpers()}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -25,4 +24,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default App;

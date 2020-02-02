@@ -968,6 +968,27 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
+"@justinal64/dashboard@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@justinal64/dashboard/-/dashboard-0.0.2.tgz#f0d485fbe0ea0ad871e660672829a228e0000c7e"
+  dependencies:
+    "@justinal64/helpers" "^0.0.10"
+    "@testing-library/jest-dom" "^4.2.4"
+    "@testing-library/react" "^9.3.2"
+    "@testing-library/user-event" "^7.1.2"
+    "@types/jest" "^24.0.0"
+    "@types/node" "^12.12.26"
+    "@types/react" "^16.9.0"
+    "@types/react-dom" "^16.9.0"
+    react "^16.12.0"
+    react-dom "^16.12.0"
+    react-scripts "3.3.1"
+    typescript "^3.7.5"
+
+"@justinal64/helpers@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@justinal64/helpers/-/helpers-0.0.10.tgz#cada7a84195dfa7aa16feed4cec7f00d4c7f2077"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -1193,7 +1214,7 @@
   version "13.5.3"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.5.3.tgz#37f1f539b7535b9fb4ef77d59db1847a837b7f17"
 
-"@types/node@^12.0.0":
+"@types/node@^12.0.0", "@types/node@^12.12.26":
   version "12.12.26"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.26.tgz#213e153babac0ed169d44a6d919501e68f59dea9"
 
@@ -8505,7 +8526,7 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typescript@~3.7.2:
+typescript@^3.7.5, typescript@~3.7.2:
   version "3.7.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.5.tgz#0692e21f65fd4108b9330238aac11dd2e177a1ae"
 
