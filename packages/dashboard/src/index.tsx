@@ -1,7 +1,7 @@
 // import React from "react";
 // import ReactDOM from "react-dom";
 // import "./index.css";
-import Dashboard from "./App";
+// import Dashboard from "./App";
 // import * as serviceWorker from "./serviceWorker";
 
 // ReactDOM.render(<Dashboard />, document.getElementById("root"));
@@ -11,4 +11,4 @@ import Dashboard from "./App";
 // // Learn more about service workers: https://bit.ly/CRA-PWA
 // serviceWorker.unregister();
 
-export { Dashboard };
+export * from "./App";
