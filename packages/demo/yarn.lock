@@ -968,9 +968,9 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@justinal64/dashboard@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@justinal64/dashboard/-/dashboard-0.0.6.tgz#ab0e60d7296997557af072ad82ab23a8c06217ee"
+"@justinal64/dashboard@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@justinal64/dashboard/-/dashboard-0.0.7.tgz#25533828b003bcfaa3ce000c4a9feb886701542c"
   dependencies:
     "@justinal64/helpers" "^0.0.11"
     "@types/node" "^12.12.26"
