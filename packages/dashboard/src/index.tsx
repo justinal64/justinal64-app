@@ -11,4 +11,10 @@
 // // Learn more about service workers: https://bit.ly/CRA-PWA
 // serviceWorker.unregister();
 
-export * from "./App";
+function Test() {
+  return "This is a test";
+}
+
+export { Test };
+
+// export * from "./App";

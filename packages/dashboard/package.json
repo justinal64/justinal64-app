@@ -27,7 +27,8 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "tsc": "tsc"
+        "tsc": "tsc",
+        "tsc:watch": "tsc -watch"
     },
     "eslintConfig": {
         "extends": "react-app"
