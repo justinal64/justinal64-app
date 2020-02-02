@@ -1,6 +1,6 @@
 {
     "name": "@justinal64/dashboard",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "private": false,
     "main": "lib/index.js",
     "typings": "lib/index.d.ts",
@@ -9,7 +9,7 @@
         "test": "__test__"
     },
     "dependencies": {
-        "@justinal64/helpers": "^0.0.9",
+        "@justinal64/helpers": "^0.0.10",
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.3.2",
         "@testing-library/user-event": "^7.1.2",
