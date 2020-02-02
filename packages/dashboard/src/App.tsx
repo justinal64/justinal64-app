@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { helpers } from "@justinal64/helpers";
 
-const Dashboard = () => {
+const App = () => {
   return (
     <div className="App">
       {helpers()}
@@ -25,4 +25,4 @@ const Dashboard = () => {
   );
 };
 
-export { Dashboard };
+export default App;
