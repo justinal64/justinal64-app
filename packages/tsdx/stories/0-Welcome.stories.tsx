@@ -1,5 +1,5 @@
 import React from 'react';
-import { Thing } from '../src/index';
+import { Thing } from '../src';
 
 export default {
   title: 'Welcome',
