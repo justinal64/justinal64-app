@@ -39,6 +39,7 @@
         "@storybook/addon-links": "^5.3.12",
         "@storybook/addons": "^5.3.12",
         "@storybook/react": "^5.3.12",
+        "@testing-library/react": "^9.4.1",
         "@types/jest": "^25.1.1",
         "@types/react": "^16.9.19",
         "@types/react-dom": "^16.9.5",
@@ -51,5 +52,13 @@
         "tsdx": "^0.12.3",
         "tslib": "^1.10.0",
         "typescript": "^3.7.5"
+    },
+    "jest": {
+        "globals": {
+            "ts-jest": {
+                "diagnostics": false,
+                "warnOnly": true
+            }
+        }
     }
 }
