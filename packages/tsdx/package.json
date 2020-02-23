@@ -10,6 +10,7 @@
         "start": "tsdx watch",
         "build": "tsdx build",
         "test": "tsdx test --passWithNoTests",
+        "test:watch": "tsdx test --watch",
         "lint": "tsdx lint",
         "prepare": "tsdx build",
         "storybook": "start-storybook -p 6006",
