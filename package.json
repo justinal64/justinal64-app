@@ -2,6 +2,7 @@
     "name": "root",
     "devDependencies": {
         "@justinal64/helpers": "^0.0.9",
+        "@testing-library/jest-dom": "^5.1.1",
         "@types/node": "^13.7.0",
         "lerna": "^3.20.2",
         "typescript": "^3.7.5"

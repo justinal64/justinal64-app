@@ -23,7 +23,8 @@
     "baseUrl": "./",
     "paths": {
       "@": ["./"],
-      "*": ["src/*", "node_modules/*"]
+      "*": ["src/*", "node_modules/*"],
+      "test-utils": ["../utils/test-utils"]
     },
     "jsx": "react",
     "esModuleInterop": true
