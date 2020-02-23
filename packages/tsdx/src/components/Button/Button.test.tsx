@@ -2,7 +2,6 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { render } from '@testing-library/react';
 import { Button } from './';
-import { maxHeaderSize } from 'http';
 
 describe('Button', () => {
   it('renders without crashing', () => {
