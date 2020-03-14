@@ -12,15 +12,18 @@ describe('Button', () => {
 
   it('accepts title', () => {
     const title = 'test';
-    const { getByTestId } = render(<Button title={title} />);
-    const result = getByTestId('button').innerHTML;
+    render(<Button title={title} />);
+    const result = screen.getByTestId('button').innerHTML;
     expect(title).toBe(result);
   });
 
-  xit('accepts classes', () => {
-    const { container, getByTestId, debug } = render(
-      <Button className={['test', 'tester']} />
-    );
+  // figure out how to get a list of classNames.....
+  it('accepts classes', () => {
+    const classes = 'test tester';
+    const { debug, container } = render(<Button className={classes} />);
+    debug(container);
+    const result = screen.getByTestId('button').classList;
+    console.log(result);
     expect(true).toBe(false);
   });
 
