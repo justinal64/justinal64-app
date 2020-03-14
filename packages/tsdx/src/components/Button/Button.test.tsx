@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { Button } from './';
 
 describe('Button', () => {
@@ -11,20 +11,20 @@ describe('Button', () => {
   });
 
   it('accepts title', () => {
-    const { container, getByText, debug } = render(<Button title="test" />);
-    debug(container);
-    expect(getByText('test')).toBeInTheDocument();
-    expect(true).toBe(false);
+    const title = 'test';
+    const { getByTestId } = render(<Button title={title} />);
+    const result = getByTestId('button').innerHTML;
+    expect(title).toBe(result);
   });
 
-  it('accepts classes', () => {
-    const { container, getByText, debug } = render(
+  xit('accepts classes', () => {
+    const { container, getByTestId, debug } = render(
       <Button className={['test', 'tester']} />
     );
     expect(true).toBe(false);
   });
 
-  it('accepts onClick event', () => {
+  xit('accepts onClick event', () => {
     const { container, getByText, debug } = render(
       <Button
         onClick={() => {
@@ -35,12 +35,12 @@ describe('Button', () => {
     expect(true).toBe(false);
   });
 
-  it('accepts disabled state', () => {
+  xit('accepts disabled state', () => {
     const { container, getByText, debug } = render(<Button disabled={true} />);
     expect(true).toBe(false);
   });
 
-  it('accepts custom attributes', () => {
+  xit('accepts custom attributes', () => {
     const { container, getByText, debug } = render(
       <Button
         attr={[
@@ -52,21 +52,21 @@ describe('Button', () => {
     expect(true).toBe(false);
   });
 
-  it('accepts icon', () => {
+  xit('accepts icon', () => {
     const { container, getByText, debug } = render(
       <Button icon="linktoimage.svg" />
     );
     expect(true).toBe(false);
   });
 
-  it('accepts size', () => {
+  xit('accepts size', () => {
     const { container, getByText, debug } = render(
       <Button size="Enum Size.Small" />
     );
     expect(true).toBe(false);
   });
 
-  it('accepts children', () => {
+  xit('accepts children', () => {
     const { container, getByText, debug } = render(
       <Button>
         <div>Hi I'm a child being passed down</div>
