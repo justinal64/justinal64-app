@@ -2,6 +2,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { render, screen } from '@testing-library/react';
 import { Button } from './';
+import '@testing-library/jest-dom/extend-expect';
 
 describe('Button', () => {
   it('renders without crashing', () => {
@@ -17,14 +18,11 @@ describe('Button', () => {
     expect(title).toBe(result);
   });
 
-  // figure out how to get a list of classNames.....
   it('accepts classes', () => {
     const classes = 'test tester';
-    const { debug, container } = render(<Button className={classes} />);
-    debug(container);
-    const result = screen.getByTestId('button').classList;
-    console.log(result);
-    expect(true).toBe(false);
+    render(<Button className={classes} />);
+    const result = screen.getByTestId('button');
+    expect(result).toHaveClass(classes);
   });
 
   xit('accepts onClick event', () => {
