@@ -25,14 +25,9 @@ describe('Button', () => {
     expect(result).toHaveClass(classes);
   });
 
-  xit('accepts onClick event', () => {
-    const { container, getByText, debug } = render(
-      <Button
-        onClick={() => {
-          console.log('Test');
-        }}
-      />
-    );
+  it('accepts onClick event', () => {
+    render(<Button onClick={() => console.log('tester')} />);
+    const result = screen.getByTestId('button');
     expect(true).toBe(false);
   });
 
