@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { render, screen } from '@testing-library/react';
-import { Button } from './';
+import { Button } from './Button';
 import '@testing-library/jest-dom/extend-expect';
 
 describe('Button', () => {

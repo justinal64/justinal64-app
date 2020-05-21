@@ -10,7 +10,7 @@ export const Button = (props: Props) => {
   const { title, className, onClick = () => console.log('Test') } = props;
   console.log(onClick);
   return (
-    <button data-testid="button" className={className} onClick={onClick}>
+    <button data-testid="button" className={className}>
       {title}
     </button>
   );
