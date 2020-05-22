@@ -8,6 +8,9 @@
         "typescript": "^3.7.5"
     },
     "scripts": {
-        "publish": "lerna run tsc && lerna publish"
+        "publish": "lerna run tsc && lerna publish",
+        "start:tsdx": "yarn --cwd ./packages/tsdx start",
+        "start:demo": "cd ./packages/demo && yarn start",
+        "start:dashboard": "lerna run start --scope @justinal64/dashboard"
     }
 }
