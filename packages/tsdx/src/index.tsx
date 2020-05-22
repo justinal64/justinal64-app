@@ -1,5 +1,5 @@
 import { Thing } from './components/Thing';
-import { Button } from './components/Button';
+import { Button } from './components/Button/Button';
 import { Image } from './components/Image';
 import { Title } from './components/Title';
 
